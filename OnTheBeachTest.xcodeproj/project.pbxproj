@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC112E05789138A7CEC7BB3 /* Pods_OnTheBeachTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77866E1981F718115553134F /* Pods_OnTheBeachTest.framework */; };
 		76C005821E44D26400AD488A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005811E44D26400AD488A /* main.m */; };
 		76C005851E44D26400AD488A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005841E44D26400AD488A /* AppDelegate.m */; };
-		76C005881E44D26400AD488A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005871E44D26400AD488A /* ViewController.m */; };
 		76C0058B1E44D26400AD488A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C005891E44D26400AD488A /* Main.storyboard */; };
 		76C0058D1E44D26400AD488A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C0058C1E44D26400AD488A /* Assets.xcassets */; };
 		76C005901E44D26400AD488A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C0058E1E44D26400AD488A /* LaunchScreen.storyboard */; };
-		76C0059B1E44D26500AD488A /* OnTheBeachTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0059A1E44D26500AD488A /* OnTheBeachTestTests.m */; };
-		76C005A61E44D26500AD488A /* OnTheBeachTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005A51E44D26500AD488A /* OnTheBeachTestUITests.m */; };
+		76C005D01E44E4D600AD488A /* OBConnectivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005CF1E44E4D600AD488A /* OBConnectivityManager.m */; };
+		76C005D51E4514BA00AD488A /* OBNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005D41E4514BA00AD488A /* OBNetworkService.m */; };
+		76C005DA1E45162A00AD488A /* OBAlertMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005D71E45162A00AD488A /* OBAlertMessages.m */; };
+		76C005DB1E45162A00AD488A /* OBConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005D91E45162A00AD488A /* OBConstant.m */; };
+		76C005E01E4518F500AD488A /* OBFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005DF1E4518F500AD488A /* OBFacade.m */; };
+		76C005E41E451A2800AD488A /* OBDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005E31E451A2800AD488A /* OBDataParser.m */; };
+		76C005E81E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005E71E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.m */; };
+		76C005ED1E451C6100AD488A /* OBHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005EC1E451C6100AD488A /* OBHotel.m */; };
+		76C005F01E451DBE00AD488A /* OBFlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005EF1E451DBE00AD488A /* OBFlight.m */; };
+		76C005F81E45292B00AD488A /* OBFlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005F71E45292B00AD488A /* OBFlightsViewController.m */; };
+		76C005FB1E4630B300AD488A /* OBFlightViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005FA1E4630B300AD488A /* OBFlightViewCell.m */; };
+		76C005FE1E4638E900AD488A /* OBFlightViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C005FD1E4638E900AD488A /* OBFlightViewModel.m */; };
+		76C006011E48B6A500AD488A /* OBHotelViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C006001E48B6A500AD488A /* OBHotelViewModel.m */; };
+		76C006071E48D37500AD488A /* OBHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C006061E48D37500AD488A /* OBHotelViewController.m */; };
+		76C0060A1E48E48900AD488A /* OBHotelImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C006091E48E48900AD488A /* OBHotelImageViewCell.m */; };
+		76C0060F1E48F07800AD488A /* OBPerserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0060E1E48F07800AD488A /* OBPerserTests.m */; };
+		76C006111E49C78700AD488A /* OBFlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C006101E49C78700AD488A /* OBFlightTests.m */; };
+		76C006131E4A0E7000AD488A /* OBHotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C006121E4A0E7000AD488A /* OBHotelTests.m */; };
+		76C006151E4A56D000AD488A /* OBFlightsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C006141E4A56D000AD488A /* OBFlightsViewControllerTests.m */; };
+		76FB5A671E4A6B6B00E30FD7 /* OBHotelViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FB5A661E4A6B6B00E30FD7 /* OBHotelViewControllerTests.m */; };
+		76FB5A691E4A7D0700E30FD7 /* OBFlightViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FB5A681E4A7D0700E30FD7 /* OBFlightViewControllerUITests.m */; };
+		76FB5A6B1E4A7F2A00E30FD7 /* OBHotelViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FB5A6A1E4A7F2A00E30FD7 /* OBHotelViewControllerUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +59,55 @@
 		76C005811E44D26400AD488A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76C005831E44D26400AD488A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76C005841E44D26400AD488A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76C005861E44D26400AD488A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		76C005871E44D26400AD488A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76C0058A1E44D26400AD488A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76C0058C1E44D26400AD488A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C0058F1E44D26400AD488A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C005911E44D26400AD488A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76C005961E44D26500AD488A /* OnTheBeachTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheBeachTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76C0059A1E44D26500AD488A /* OnTheBeachTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnTheBeachTestTests.m; sourceTree = "<group>"; };
 		76C0059C1E44D26500AD488A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76C005A11E44D26500AD488A /* OnTheBeachTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheBeachTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76C005A51E44D26500AD488A /* OnTheBeachTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnTheBeachTestUITests.m; sourceTree = "<group>"; };
 		76C005A71E44D26500AD488A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C005CE1E44E4D600AD488A /* OBConnectivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBConnectivityManager.h; sourceTree = "<group>"; };
+		76C005CF1E44E4D600AD488A /* OBConnectivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBConnectivityManager.m; sourceTree = "<group>"; };
+		76C005D11E44E53200AD488A /* OnTheBeachTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OnTheBeachTest-Prefix.pch"; sourceTree = "<group>"; };
+		76C005D31E4514BA00AD488A /* OBNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBNetworkService.h; sourceTree = "<group>"; };
+		76C005D41E4514BA00AD488A /* OBNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBNetworkService.m; sourceTree = "<group>"; };
+		76C005D61E45162A00AD488A /* OBAlertMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBAlertMessages.h; sourceTree = "<group>"; };
+		76C005D71E45162A00AD488A /* OBAlertMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBAlertMessages.m; sourceTree = "<group>"; };
+		76C005D81E45162A00AD488A /* OBConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBConstant.h; sourceTree = "<group>"; };
+		76C005D91E45162A00AD488A /* OBConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBConstant.m; sourceTree = "<group>"; };
+		76C005DE1E4518F500AD488A /* OBFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFacade.h; sourceTree = "<group>"; };
+		76C005DF1E4518F500AD488A /* OBFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFacade.m; sourceTree = "<group>"; };
+		76C005E21E451A2800AD488A /* OBDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataParser.h; sourceTree = "<group>"; };
+		76C005E31E451A2800AD488A /* OBDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataParser.m; sourceTree = "<group>"; };
+		76C005E61E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSKeyValueCodingExtended.h"; sourceTree = "<group>"; };
+		76C005E71E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSKeyValueCodingExtended.m"; sourceTree = "<group>"; };
+		76C005EB1E451C6100AD488A /* OBHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBHotel.h; sourceTree = "<group>"; };
+		76C005EC1E451C6100AD488A /* OBHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotel.m; sourceTree = "<group>"; };
+		76C005EE1E451DBE00AD488A /* OBFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFlight.h; sourceTree = "<group>"; };
+		76C005EF1E451DBE00AD488A /* OBFlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlight.m; sourceTree = "<group>"; };
+		76C005F61E45292B00AD488A /* OBFlightsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFlightsViewController.h; sourceTree = "<group>"; };
+		76C005F71E45292B00AD488A /* OBFlightsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlightsViewController.m; sourceTree = "<group>"; };
+		76C005F91E4630B300AD488A /* OBFlightViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFlightViewCell.h; sourceTree = "<group>"; };
+		76C005FA1E4630B300AD488A /* OBFlightViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlightViewCell.m; sourceTree = "<group>"; };
+		76C005FC1E4638E900AD488A /* OBFlightViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBFlightViewModel.h; sourceTree = "<group>"; };
+		76C005FD1E4638E900AD488A /* OBFlightViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlightViewModel.m; sourceTree = "<group>"; };
+		76C005FF1E48B6A500AD488A /* OBHotelViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBHotelViewModel.h; sourceTree = "<group>"; };
+		76C006001E48B6A500AD488A /* OBHotelViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotelViewModel.m; sourceTree = "<group>"; };
+		76C006051E48D37500AD488A /* OBHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBHotelViewController.h; sourceTree = "<group>"; };
+		76C006061E48D37500AD488A /* OBHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotelViewController.m; sourceTree = "<group>"; };
+		76C006081E48E48900AD488A /* OBHotelImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBHotelImageViewCell.h; sourceTree = "<group>"; };
+		76C006091E48E48900AD488A /* OBHotelImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotelImageViewCell.m; sourceTree = "<group>"; };
+		76C0060E1E48F07800AD488A /* OBPerserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBPerserTests.m; sourceTree = "<group>"; };
+		76C006101E49C78700AD488A /* OBFlightTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlightTests.m; sourceTree = "<group>"; };
+		76C006121E4A0E7000AD488A /* OBHotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotelTests.m; sourceTree = "<group>"; };
+		76C006141E4A56D000AD488A /* OBFlightsViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlightsViewControllerTests.m; sourceTree = "<group>"; };
+		76FB5A661E4A6B6B00E30FD7 /* OBHotelViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotelViewControllerTests.m; sourceTree = "<group>"; };
+		76FB5A681E4A7D0700E30FD7 /* OBFlightViewControllerUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBFlightViewControllerUITests.m; sourceTree = "<group>"; };
+		76FB5A6A1E4A7F2A00E30FD7 /* OBHotelViewControllerUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBHotelViewControllerUITests.m; sourceTree = "<group>"; };
+		77866E1981F718115553134F /* Pods_OnTheBeachTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnTheBeachTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD21B1FCE745CBA898932481 /* Pods-OnTheBeachTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnTheBeachTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnTheBeachTest/Pods-OnTheBeachTest.release.xcconfig"; sourceTree = "<group>"; };
+		B78CBFE9082DCC621132A27F /* Pods-OnTheBeachTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnTheBeachTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnTheBeachTest/Pods-OnTheBeachTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC112E05789138A7CEC7BB3 /* Pods_OnTheBeachTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +136,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F87898236D8817D48C74C6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78CBFE9082DCC621132A27F /* Pods-OnTheBeachTest.debug.xcconfig */,
+				AD21B1FCE745CBA898932481 /* Pods-OnTheBeachTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74D547509F16B35E3A3ED890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77866E1981F718115553134F /* Pods_OnTheBeachTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76C005741E44D26400AD488A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +160,8 @@
 				76C005991E44D26500AD488A /* OnTheBeachTestTests */,
 				76C005A41E44D26500AD488A /* OnTheBeachTestUITests */,
 				76C0057E1E44D26400AD488A /* Products */,
+				1F87898236D8817D48C74C6C /* Pods */,
+				74D547509F16B35E3A3ED890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +178,14 @@
 		76C0057F1E44D26400AD488A /* OnTheBeachTest */ = {
 			isa = PBXGroup;
 			children = (
+				76C005E51E451A8300AD488A /* category */,
+				76C005B31E44D2D300AD488A /* utils */,
+				76C005CD1E44E02E00AD488A /* manager */,
+				76C005B61E44D71100AD488A /* service */,
+				76C005B51E44D6F100AD488A /* model */,
+				76C005B41E44D2E500AD488A /* ui */,
 				76C005831E44D26400AD488A /* AppDelegate.h */,
 				76C005841E44D26400AD488A /* AppDelegate.m */,
-				76C005861E44D26400AD488A /* ViewController.h */,
-				76C005871E44D26400AD488A /* ViewController.m */,
 				76C005891E44D26400AD488A /* Main.storyboard */,
 				76C0058C1E44D26400AD488A /* Assets.xcassets */,
 				76C0058E1E44D26400AD488A /* LaunchScreen.storyboard */,
@@ -118,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				76C005811E44D26400AD488A /* main.m */,
+				76C005D11E44E53200AD488A /* OnTheBeachTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,7 +207,11 @@
 		76C005991E44D26500AD488A /* OnTheBeachTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				76C0059A1E44D26500AD488A /* OnTheBeachTestTests.m */,
+				76C0060E1E48F07800AD488A /* OBPerserTests.m */,
+				76C006101E49C78700AD488A /* OBFlightTests.m */,
+				76C006121E4A0E7000AD488A /* OBHotelTests.m */,
+				76C006141E4A56D000AD488A /* OBFlightsViewControllerTests.m */,
+				76FB5A661E4A6B6B00E30FD7 /* OBHotelViewControllerTests.m */,
 				76C0059C1E44D26500AD488A /* Info.plist */,
 			);
 			path = OnTheBeachTestTests;
@@ -134,10 +220,139 @@
 		76C005A41E44D26500AD488A /* OnTheBeachTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				76C005A51E44D26500AD488A /* OnTheBeachTestUITests.m */,
+				76FB5A681E4A7D0700E30FD7 /* OBFlightViewControllerUITests.m */,
+				76FB5A6A1E4A7F2A00E30FD7 /* OBHotelViewControllerUITests.m */,
 				76C005A71E44D26500AD488A /* Info.plist */,
 			);
 			path = OnTheBeachTestUITests;
+			sourceTree = "<group>";
+		};
+		76C005B31E44D2D300AD488A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				76C005D61E45162A00AD488A /* OBAlertMessages.h */,
+				76C005D71E45162A00AD488A /* OBAlertMessages.m */,
+				76C005D81E45162A00AD488A /* OBConstant.h */,
+				76C005D91E45162A00AD488A /* OBConstant.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		76C005B41E44D2E500AD488A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				76C005F21E45271800AD488A /* flights */,
+				76C005F11E45270900AD488A /* hotel */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		76C005B51E44D6F100AD488A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				76C005EA1E451C2E00AD488A /* flight */,
+				76C005E91E451C1F00AD488A /* hotel */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		76C005B61E44D71100AD488A /* service */ = {
+			isa = PBXGroup;
+			children = (
+				76C005E11E451A0100AD488A /* parser */,
+				76C005DC1E4518AA00AD488A /* facade */,
+				76C005D21E4514A200AD488A /* network */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		76C005CD1E44E02E00AD488A /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				76C005CE1E44E4D600AD488A /* OBConnectivityManager.h */,
+				76C005CF1E44E4D600AD488A /* OBConnectivityManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		76C005D21E4514A200AD488A /* network */ = {
+			isa = PBXGroup;
+			children = (
+				76C005D31E4514BA00AD488A /* OBNetworkService.h */,
+				76C005D41E4514BA00AD488A /* OBNetworkService.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		76C005DC1E4518AA00AD488A /* facade */ = {
+			isa = PBXGroup;
+			children = (
+				76C005DE1E4518F500AD488A /* OBFacade.h */,
+				76C005DF1E4518F500AD488A /* OBFacade.m */,
+			);
+			path = facade;
+			sourceTree = "<group>";
+		};
+		76C005E11E451A0100AD488A /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				76C005E21E451A2800AD488A /* OBDataParser.h */,
+				76C005E31E451A2800AD488A /* OBDataParser.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		76C005E51E451A8300AD488A /* category */ = {
+			isa = PBXGroup;
+			children = (
+				76C005E61E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.h */,
+				76C005E71E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		76C005E91E451C1F00AD488A /* hotel */ = {
+			isa = PBXGroup;
+			children = (
+				76C005EB1E451C6100AD488A /* OBHotel.h */,
+				76C005EC1E451C6100AD488A /* OBHotel.m */,
+				76C005FF1E48B6A500AD488A /* OBHotelViewModel.h */,
+				76C006001E48B6A500AD488A /* OBHotelViewModel.m */,
+			);
+			path = hotel;
+			sourceTree = "<group>";
+		};
+		76C005EA1E451C2E00AD488A /* flight */ = {
+			isa = PBXGroup;
+			children = (
+				76C005EE1E451DBE00AD488A /* OBFlight.h */,
+				76C005EF1E451DBE00AD488A /* OBFlight.m */,
+				76C005FC1E4638E900AD488A /* OBFlightViewModel.h */,
+				76C005FD1E4638E900AD488A /* OBFlightViewModel.m */,
+			);
+			path = flight;
+			sourceTree = "<group>";
+		};
+		76C005F11E45270900AD488A /* hotel */ = {
+			isa = PBXGroup;
+			children = (
+				76C006051E48D37500AD488A /* OBHotelViewController.h */,
+				76C006061E48D37500AD488A /* OBHotelViewController.m */,
+				76C006081E48E48900AD488A /* OBHotelImageViewCell.h */,
+				76C006091E48E48900AD488A /* OBHotelImageViewCell.m */,
+			);
+			path = hotel;
+			sourceTree = "<group>";
+		};
+		76C005F21E45271800AD488A /* flights */ = {
+			isa = PBXGroup;
+			children = (
+				76C005F61E45292B00AD488A /* OBFlightsViewController.h */,
+				76C005F71E45292B00AD488A /* OBFlightsViewController.m */,
+				76C005F91E4630B300AD488A /* OBFlightViewCell.h */,
+				76C005FA1E4630B300AD488A /* OBFlightViewCell.m */,
+			);
+			path = flights;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76C005AA1E44D26500AD488A /* Build configuration list for PBXNativeTarget "OnTheBeachTest" */;
 			buildPhases = (
+				2913A0481326FF357D0311ED /* [CP] Check Pods Manifest.lock */,
 				76C005791E44D26400AD488A /* Sources */,
 				76C0057A1E44D26400AD488A /* Frameworks */,
 				76C0057B1E44D26400AD488A /* Resources */,
+				5F2D676CD77853F843CD7978 /* [CP] Embed Pods Frameworks */,
+				37B7C791DC5F16E1BA3974FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +486,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2913A0481326FF357D0311ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37B7C791DC5F16E1BA3974FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnTheBeachTest/Pods-OnTheBeachTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2D676CD77853F843CD7978 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnTheBeachTest/Pods-OnTheBeachTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76C005791E44D26400AD488A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C005881E44D26400AD488A /* ViewController.m in Sources */,
+				76C005F01E451DBE00AD488A /* OBFlight.m in Sources */,
+				76C005D01E44E4D600AD488A /* OBConnectivityManager.m in Sources */,
+				76C005E01E4518F500AD488A /* OBFacade.m in Sources */,
+				76C005E41E451A2800AD488A /* OBDataParser.m in Sources */,
+				76C006011E48B6A500AD488A /* OBHotelViewModel.m in Sources */,
+				76C005FB1E4630B300AD488A /* OBFlightViewCell.m in Sources */,
+				76C005ED1E451C6100AD488A /* OBHotel.m in Sources */,
+				76C005E81E451ACA00AD488A /* NSObject+NSKeyValueCodingExtended.m in Sources */,
+				76C005FE1E4638E900AD488A /* OBFlightViewModel.m in Sources */,
+				76C005DA1E45162A00AD488A /* OBAlertMessages.m in Sources */,
+				76C005DB1E45162A00AD488A /* OBConstant.m in Sources */,
+				76C0060A1E48E48900AD488A /* OBHotelImageViewCell.m in Sources */,
+				76C005D51E4514BA00AD488A /* OBNetworkService.m in Sources */,
 				76C005851E44D26400AD488A /* AppDelegate.m in Sources */,
+				76C005F81E45292B00AD488A /* OBFlightsViewController.m in Sources */,
+				76C006071E48D37500AD488A /* OBHotelViewController.m in Sources */,
 				76C005821E44D26400AD488A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +563,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C0059B1E44D26500AD488A /* OnTheBeachTestTests.m in Sources */,
+				76C0060F1E48F07800AD488A /* OBPerserTests.m in Sources */,
+				76FB5A671E4A6B6B00E30FD7 /* OBHotelViewControllerTests.m in Sources */,
+				76C006151E4A56D000AD488A /* OBFlightsViewControllerTests.m in Sources */,
+				76C006111E49C78700AD488A /* OBFlightTests.m in Sources */,
+				76C006131E4A0E7000AD488A /* OBHotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +575,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76C005A61E44D26500AD488A /* OnTheBeachTestUITests.m in Sources */,
+				76FB5A6B1E4A7F2A00E30FD7 /* OBHotelViewControllerUITests.m in Sources */,
+				76FB5A691E4A7D0700E30FD7 /* OBFlightViewControllerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +645,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "OnTheBeachTest/OnTheBeachTest-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -406,6 +692,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "OnTheBeachTest/OnTheBeachTest-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -422,23 +709,29 @@
 		};
 		76C005AB1E44D26500AD488A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78CBFE9082DCC621132A27F /* Pods-OnTheBeachTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OnTheBeachTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OnTheBeach.OnTheBeachTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		76C005AC1E44D26500AD488A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD21B1FCE745CBA898932481 /* Pods-OnTheBeachTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OnTheBeachTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OnTheBeach.OnTheBeachTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +800,7 @@
 				76C005AC1E44D26500AD488A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C005AD1E44D26500AD488A /* Build configuration list for PBXNativeTarget "OnTheBeachTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +809,7 @@
 				76C005AF1E44D26500AD488A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C005B01E44D26500AD488A /* Build configuration list for PBXNativeTarget "OnTheBeachTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +818,7 @@
 				76C005B21E44D26500AD488A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OBFlightsViewController.h
 //  OnTheBeachTest
 //
 //  Created by MacBook Pro Retina on 03/02/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface OBFlightsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView *tableFlights;
 @end
-
